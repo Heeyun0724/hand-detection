@@ -83,7 +83,7 @@ def detect_hands_in_video(cap):
     cv2.destroyAllWindows()
 
 # 비디오 경로를 자신의 경로로 변경
-cap = cv2.VideoCapture("C:/Users/Desktop/video/drive-download-20240124T011103Z-002/240123_13_SI008L0F_T2_output.mp4")
+cap = cv2.VideoCapture("C:/Users/Desktop/video/output.mp4")
 cv2.namedWindow('MediaPipe Hands')
 total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
 cv2.createTrackbar('Position', 'MediaPipe Hands', 0, total_frames, onChange)
