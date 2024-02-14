@@ -7,8 +7,11 @@ from tqdm import tqdm
 mp_drawing = mp.solutions.drawing_utils
 mp_hands = mp.solutions.hands
 
+#추출하고 손의 랜드마크 id를 수정해야 함 
+# 현재에는 2,5,9,13,17의 각도를 구한 것
 finger_landmarks = {'Thumb': [0, 2, 3], 'Index Finger': [0, 5, 6], 'Middle Finger': [0, 9, 10], 'Ring Finger': [0, 13, 14], 'Pinky': [0, 17, 18]}
 
+#손가락의 각도 구하는 함수
 def calculate_angle(a, b, c):
     a = np.array(a)
     b = np.array(b)
