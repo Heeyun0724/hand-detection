@@ -56,3 +56,10 @@ pip install -r requirements.txt
 If you want finger angle extraction, run video hand detection Angle.py in vscode.
 
 If you want finger coordinate extraction, run video hand detection coordinate.py in vscode.
+
+## Result
+The information on the finger extracted in the path specified by you is saved as a json file.
+
+The json file is printed separately with both hands, and five fingers are generated as individual json files. The result will be a total of 10 json files.
+
+If the hand was not detected in the video, it was made to be printed in an empty array in the json file.
