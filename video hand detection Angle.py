@@ -25,7 +25,7 @@ def calculate_angle(a, b, c):
 both_hands_detected_frames = 0
 
 # 비디오 파일 경로 설정 (실제 파일 경로로 교체)
-video_path = "C:/Users/heohu/Desktop/video/drive-download-20240124T011103Z-002/240123_13_SI008L0F_T2_output.mp4"
+video_path = "C:/Users/Desktop/video/drive-download-20240124T011103Z-00.mp4"
 cap = cv2.VideoCapture(video_path)
 
 # 비디오 파일 여는데 실패한 경우 에러 출력 후 종료
