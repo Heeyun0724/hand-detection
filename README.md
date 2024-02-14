@@ -33,12 +33,18 @@ Insert the video with the input data and extract the angle and x,y,z three-dimen
 > from tqdm import tqdm
 
 ## Version
+If you want to download each package from vscode cmd
 ```python
 pip install tqdm == 4.66.1
 pip install mediapipe == 0.10.9
 pip install opencv-python == 4.9.0.80
 pip install json
 pip install numpy == 1.26.3
+```
+
+If you want to download packages from the vscode cmd window to requirements.txt at once
+```python
+pip install -r requirements.txt
 ```
 
 ## :memo: Files
