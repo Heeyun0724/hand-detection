@@ -47,7 +47,9 @@ def detect_hands_in_video(cap):
                         coordinate_right = [right_hand.landmark[id].x, right_hand.landmark[id].y, right_hand.landmark[id].z]
                         landmarks_data_left[id].append(coordinate_left)
                         landmarks_data_right[id].append(coordinate_right)
-                    elif hands_count == 1:  # If only one hand is detected
+                        
+                    # If only one hand is detected
+                    elif hands_count == 1:  
                         # Determine if the hand is left or right based on the position of the thumb and pinky
                         if results.multi_hand_landmarks[0].landmark[4].x < results.multi_hand_landmarks[0].landmark[20].x:
                             coordinate_right = [results.multi_hand_landmarks[0].landmark[id].x, results.multi_hand_landmarks[0].landmark[id].y, results.multi_hand_landmarks[0].landmark[id].z]
@@ -57,9 +59,12 @@ def detect_hands_in_video(cap):
                             coordinate_left = [results.multi_hand_landmarks[0].landmark[id].x, results.multi_hand_landmarks[0].landmark[id].y, results.multi_hand_landmarks[0].landmark[id].z]
                             landmarks_data_left[id].append(coordinate_left)
                             landmarks_data_right[id].append([])
-                    else:  # If no hands are detected
+                            
+                     # If no hands are detected        
+                    else: 
                         landmarks_data_left[id].append([])
                         landmarks_data_right[id].append([])
+                        
             else:  # If no hands are detected
                 for id in range(21):
                     landmarks_data_left[id].append([])
