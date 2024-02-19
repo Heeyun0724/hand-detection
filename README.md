@@ -42,9 +42,9 @@ pip install json
 pip install numpy == 1.26.3
 ```
 
-If you want to download packages from the vscode cmd window to requirements.txt at once
+If you want to download packages from the vscode cmd window to requirements_hand.txt at once
 ```python
-pip install -r requirements.txt
+pip install -r requirements_hand.txt
 ```
 
 ## :memo: Files
