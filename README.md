@@ -82,3 +82,77 @@ The information on the finger extracted in the path specified by you is saved as
 The json file is printed separately with both hands, and five fingers are generated as individual json files. The result will be a total of 10 json files.
 
 If the hand was not detected in the video, it was made to be printed in an empty array in the json file.
+</b>
+### Tree
+```python
+|   
++---curve_fullver
+|       landmarks_curve_left_Index Finger_5.json
+|       landmarks_curve_left_Index Finger_6.json
+|       landmarks_curve_left_Middle Finger_10.json
+|       landmarks_curve_left_Middle Finger_9.json
+|       landmarks_curve_left_Pinky_17.json
+|       landmarks_curve_left_Pinky_18.json
+|       landmarks_curve_left_Ring Finger_13.json
+|       landmarks_curve_left_Ring Finger_14.json
+|       landmarks_curve_left_Thumb_2.json
+|       landmarks_curve_left_Thumb_3.json
+|       landmarks_curve_right_Index Finger_5.json
+|       landmarks_curve_right_Index Finger_6.json
+|       landmarks_curve_right_Middle Finger_10.json
+|       landmarks_curve_right_Middle Finger_9.json
+|       landmarks_curve_right_Pinky_17.json
+|       landmarks_curve_right_Pinky_18.json
+|       landmarks_curve_right_Ring Finger_13.json
+|       landmarks_curve_right_Ring Finger_14.json
+|       landmarks_curve_right_Thumb_2.json
+|       landmarks_curve_right_Thumb_3.json
+|       
++---hand_detection
+|       video hand detection Angle.py
+|       video hand detection coordinate.py
+|       
+\---landmark_fullver
+        landmarks_data_left_0.json
+        landmarks_data_left_1.json
+        landmarks_data_left_10.json
+        landmarks_data_left_11.json
+        landmarks_data_left_12.json
+        landmarks_data_left_13.json
+        landmarks_data_left_14.json
+        landmarks_data_left_15.json
+        landmarks_data_left_16.json
+        landmarks_data_left_17.json
+        landmarks_data_left_18.json
+        landmarks_data_left_19.json
+        landmarks_data_left_2.json
+        landmarks_data_left_20.json
+        landmarks_data_left_3.json
+        landmarks_data_left_4.json
+        landmarks_data_left_5.json
+        landmarks_data_left_6.json
+        landmarks_data_left_7.json
+        landmarks_data_left_8.json
+        landmarks_data_left_9.json
+        landmarks_data_right_0.json
+        landmarks_data_right_1.json
+        landmarks_data_right_10.json
+        landmarks_data_right_11.json
+        landmarks_data_right_12.json
+        landmarks_data_right_13.json
+        landmarks_data_right_14.json
+        landmarks_data_right_15.json
+        landmarks_data_right_16.json
+        landmarks_data_right_17.json
+        landmarks_data_right_18.json
+        landmarks_data_right_19.json
+        landmarks_data_right_2.json
+        landmarks_data_right_20.json
+        landmarks_data_right_3.json
+        landmarks_data_right_4.json
+        landmarks_data_right_5.json
+        landmarks_data_right_6.json
+        landmarks_data_right_7.json
+        landmarks_data_right_8.json
+        landmarks_data_right_9.json
+```
